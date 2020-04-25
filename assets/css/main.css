@@ -90,3 +90,14 @@ img {
 .post_content {
   margin: 0px;
 }
+
+.home {
+  display: inline-block;
+  height: 24px;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.title {
+  display: inline-block;
+}

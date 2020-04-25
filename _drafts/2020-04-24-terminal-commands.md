@@ -3,7 +3,7 @@ layout: post
 title:  "Terminal Commands"
 date:   2020-04-24 00:44:42 -0700
 categories: thoughts
-tags: [terminal, commands]
+tags: [terminal, commands, github]
 author: "Brandon"
 ---
 
@@ -15,7 +15,9 @@ exec bundle serve jekyll serve
 exec bundle serve jekyll serve --drafts
 {% endhighlight %}
 
-Pushing to Github:
+<b>Github</b>
+
+Pushing:
 {% highlight ruby%}
 git status
 git add .
