@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<!-- INTRO -->
+<div>
+  <h1>Brandon Wu</h1>
+  <p>Hello there! I'm Brandon, a senior at Cupertino High school. I'll be attending Yale this fall.</p>
+<div>
+
+<!-- ABOUT ME -->
+<div>
+  <h1>About me</h1>
+  <ul>
+    <li>my current interests are in neuroscience, cs, and philosophy</li>
+    <li>i'm trying to explore different hobbies, cultures, and places</li>
+    <li>i aim to one day backpack across europe with my friends</li>
+    <li>favorite read: when breathe becomes air by paul kalanithi</li>
+    <li>i recently picked up fortnite. dub count: 2</li>
+  </ul>
+<div>
+
+<!-- BLOG -->
+<div>
+  <h1>Some questions I am trying to answer</h1>
+  <p>For times when I can't hold in my thoughts or questions.</p>
+  <div class = "thoughts">
+    <p>thoughts</p>
+    <ul>
+      {% for post in site.categories.thoughts %}
+      <li>
+        <a href="{{ post.url }}"> {{ post.date | date: "%-m/%-d/%y" }} &#183; {{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class = "projects">
+    <p>projects</p>
+    <ul>
+      {% for post in site.categories.projects %}
+      <li>
+        <a href="{{ post.url }}">{{ page.content }}</a>
+      </li>
+      {% endfor %}
+      <li><a href="http://www.pbjthoughts.com/">PBJ – An experimental journal with friends</a></li>
+      <li><a href="https://brandonlwu.github.io/play2020/">2020 game</a></li>
+    </ul>
+  </div>
+  <div class = "spacer"></div>
+  <div class = "spacer"></div>
+</div>

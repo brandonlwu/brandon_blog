@@ -1,0 +1,92 @@
+@import "native.css";
+
+h1, ul, li, a, p, i, b {
+  font-family: Avenir;
+}
+
+.container {
+  margin-left: 30%;
+	margin-right: 30%;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+li {
+  margin: 2px;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.thoughts {
+  display: inline-block;
+  width: 50%;
+}
+
+.projects {
+  display: inline-block;
+  width: 49%;
+  float: right;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+ z-index: 1;
+}
+
+.post_content a {
+  display: inline-block;
+  position: relative;
+}
+
+.post_content a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 2.5px;
+  width: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  z-index: -1;
+  transition: height .1s;
+}
+
+.post_content a:hover::after {
+  height: 4px;
+}
+
+.subtitle {
+  margin: 0px;
+  font-size: 14px;
+  color: #737373;
+  display:inline-block;
+}
+
+
+img {
+  width: 100%;
+}
+
+.post_tags {
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0px 3px;
+  font-size: 14px;
+  color: white;
+  background:#737373;
+}
+
+
+.post_content {
+  margin: 0px;
+}
