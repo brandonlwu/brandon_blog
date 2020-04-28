@@ -86,7 +86,6 @@ img {
   background:#737373;
 }
 
-
 .post_content {
   margin: 0px;
 }
@@ -100,4 +99,18 @@ img {
 
 .title {
   display: inline-block;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .container {
+    margin-left:8%;
+    margin-right:8%;
+  }
+
+  .projects, .thoughts {
+    display: block;
+    width: 100%;
+  }
 }

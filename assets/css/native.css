@@ -6,6 +6,7 @@
   margin: 0px;
   font-family: "Courier New";
   font-size: 12px;
+  overflow: auto
 }
 
 .highlight .hll { background-color: #ffffcc }
