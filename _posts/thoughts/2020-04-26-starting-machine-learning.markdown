@@ -6,7 +6,7 @@ categories: thoughts
 tags: [cs, machine learning, iris, python]
 author: "Brandon"
 ---
-Documenting my journey of learning machine learning. Starting off with a mini project I found <a href = "https://machinelearningmastery.com/machine-learning-in-python-step-by-step/">online</a>. The goal is to train a program to identify the species of an Iris based off its morphological traits. They will be separated into Iris-setosa, Iris-versicolor, and Iris-virginica.
+Documenting my journey of learning machine learning. Starting off with a mini project I found [online](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/). The goal is to train a program to identify the species of an Iris based off its morphological traits. They will be separated into Iris-setosa, Iris-versicolor, and Iris-virginica.
 
 Step 1: Make sure all modules are in order and import. Modules I use:
 <ul>
