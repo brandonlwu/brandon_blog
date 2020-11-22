@@ -4,45 +4,32 @@ layout: default
 <!-- INTRO -->
 <div>
   <h1>Brandon Wu</h1>
-  <p>Hello there! I'm Brandon, a senior at Cupertino High school. I'll be attending Yale this fall.</p>
+  <p>Hello there! I'm Brandon, a first year at Yale University.</p>
+</div>
+
 <div>
+  <img id = "headshot" src="{{ 'assets/img/headshot-img.jpg' | relative_url }}">
+</div>
 
 <!-- ABOUT ME -->
 <div>
   <h1>About me</h1>
   <ul>
-    <li>my current interests are in neuroscience, cs, and philosophy</li>
-    <li>i'm trying to explore different hobbies, cultures, and places</li>
-    <li>i aim to one day backpack across europe with my friends</li>
-    <li>favorite read: when breathe becomes air by paul kalanithi</li>
-    <li>i recently picked up fortnite. dub count: 4</li>
+    <li>my current interests are at the intersections of neuroscience, cs, and philosophy</li>
+    <li>i enjoy reading poetry, spending time with friends, and taking long bike rides</li>
+    <li>i hope to one day backpack across europe with my friends</li>
+    <li>my favorite read: when breathe becomes air by paul kalanithi</li>
+    <li>want to see the beautiful faces of my friends? check <a class = "link_effect" href="https://brandonlwu.github.io/play2020/">this</a> out!</li>
   </ul>
-<div>
+</div>
 
 <!-- BLOG -->
 <div>
-  <h1>My blog</h1>
+  <h1>Snapshots of my life</h1>
   <div class = "thoughts">
-    <p>thoughts</p>
-    <ul>
-      {% for post in site.categories.thoughts %}
-      <li>
-        <a href="{{ post.url | relative_url }}"> {{ post.date | date: "%-m/%-d/%y" }} &#183; {{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class = "projects">
-    <p>projects</p>
-    <ul>
-      {% for post in site.categories.projects %}
-      <li>
-        <a href="{{ post.url }}">{{ page.content }}</a>
-      </li>
-      {% endfor %}
-      <li><a href="http://www.pbjthoughts.com/">PBJ – An experimental journal with friends</a></li>
-      <li><a href="https://brandonlwu.github.io/play2020/">2020 game</a></li>
-    </ul>
+    {% for post in site.categories.thoughts %}
+      <a href="{{ post.url | relative_url }}"> <div class = "box"><div class = "box-content">{{ post.date | date: "%-m/%-d/%y" }}</div></div></a>
+    {% endfor %}
   </div>
   <div class = "spacer"></div>
   <div class = "spacer"></div>

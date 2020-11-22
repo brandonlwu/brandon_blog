@@ -1,4 +1,5 @@
 @import "native.css";
+@import "img.css";
 
 h1, ul, li, a, p, i, b {
   font-family: Avenir;
@@ -29,13 +30,7 @@ li {
 
 .thoughts {
   display: inline-block;
-  width: 50%;
-}
-
-.projects {
-  display: inline-block;
-  width: 49%;
-  float: right;
+  width: 100%;
 }
 
 a {
@@ -62,6 +57,27 @@ a {
 }
 
 .post_content a:hover::after {
+  height: 4px;
+}
+
+.link_effect {
+  display: inline-block;
+  position: relative;
+}
+
+.link_effect::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 2.5px;
+  width: 100%;
+  background: linear-gradient(110deg, #e1f549, #29d0be, #6cb8ea, #ff5959);
+  z-index: -1;
+  transition: height .1s;
+}
+
+.link_effect:hover::after {
   height: 4px;
 }
 
@@ -101,6 +117,46 @@ img {
   display: inline-block;
 }
 
+.thoughts {
+    width: 100%;
+    dispaly: block;
+}
+
+.box {
+  display: inline-block;
+	position: relative;
+	width: 24%;		/* desired width */
+}
+
+.box:before {
+	content: "";
+  display: block;
+	float: left;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+.box-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffaa80;
+  color: #fff;
+/*   display: flex;
+  align-items: center; */
+  line-height:100%;
+  height:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-content:hover {
+  background: #ff9966;
+}
+
 
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
@@ -108,9 +164,3 @@ img {
     margin-left:8%;
     margin-right:8%;
   }
-
-  .projects, .thoughts {
-    display: block;
-    width: 100%;
-  }
-}
