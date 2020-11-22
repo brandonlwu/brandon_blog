@@ -28,7 +28,7 @@ layout: default
   <h1>Snapshots of my life</h1>
   <div class = "thoughts">
     {% for post in site.categories.thoughts %}
-      <a href="{{ post.url | relative_url }}"> <div class = "box"><div class = "box-content">{{ post.date | date: "%-m/%-d/%y" }}</div></div></a>
+      <a href="{{ post.url | relative_url }}"> <div class = "box"><div class = "box-content">{{ post.title}}</div></div></a>
     {% endfor %}
   </div>
   <div class = "spacer"></div>
