@@ -24,6 +24,10 @@ li {
   margin: 2px;
 }
 
+p {
+  margin-bottom: 5px;
+}
+
 .spacer {
   height: 20px;
 }
@@ -88,10 +92,6 @@ a {
   display:inline-block;
 }
 
-
-img {
-  width: 100%;
-}
 
 .post_tags {
   display: inline-block;

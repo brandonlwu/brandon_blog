@@ -3,7 +3,7 @@ layout: post
 title:  "Starting Machine Learning"
 date:   2020-04-26 00:44:42 -0700
 categories: thoughts
-tags: [cs, machine learning, iris, python]
+tags: [cs]
 author: "Brandon"
 ---
 Documenting my journey of learning machine learning. Starting off with a mini project I found [online](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/). The goal is to train a program to identify the species of an Iris based off its morphological traits. They will be separated into Iris-setosa, Iris-versicolor, and Iris-virginica.

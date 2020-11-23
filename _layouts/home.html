@@ -23,12 +23,22 @@ layout: default
   </ul>
 </div>
 
+<div>
+  <h1>What I've done/am doing</h1>
+  <ul>
+    <li><b>working on app, stoke</b>: developing a news-aggregating social media platform</li>
+    <li><b>simons fellow @ plotkin lab</b>: analyzed the circuitry of OCD-expressing mice using MATLAB</li>
+    <li><b>student body president</b>: represented school of 2300+, led leadership class, served on intradistrict council</li>
+    <li><b>intern @ harvard's andermann lab</b>: decoded neural processes behind learning</li>
+  </ul>
+</div>
+
 <!-- BLOG -->
 <div>
-  <h1>Snapshots of my life</h1>
+  <h1>Snapshots of what I'm up to</h1>
   <div class = "thoughts">
     {% for post in site.categories.thoughts %}
-      <a href="{{ post.url | relative_url }}"> <div class = "box"><div class = "box-content">{{ post.title}}</div></div></a>
+      <a href="{{ post.url | relative_url }}"> <div class = "box"><div class = "box-content">{{ post.date | date: "%-m/%-d/%y" }} <br> {{ post.title}}</div></div></a>
     {% endfor %}
   </div>
   <div class = "spacer"></div>
