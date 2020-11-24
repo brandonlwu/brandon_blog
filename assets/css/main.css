@@ -158,3 +158,21 @@ a {
 .box-content:hover {
   background: #ff9966;
 }
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .container {
+    margin-left:8%;
+    margin-right:8%;
+  }
+  .box {
+    display: inline-block;
+    position: relative;
+    width: 49%;		/* desired width */
+  }
+
+  .box-content a  {
+    font-size: 16px;
+  }
+
+}
