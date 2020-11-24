@@ -1,5 +1,6 @@
 @import "native.css";
 @import "img.css";
+@import "mobile.css";
 
 h1, ul, li, a, p, i, b {
   font-family: Avenir;
@@ -157,11 +158,3 @@ a {
 .box-content:hover {
   background: #ff9966;
 }
-
-
-@media only screen and (max-width:800px) {
-  /* For mobile phones: */
-  .container {
-    margin-left:8%;
-    margin-right:8%;
-  }
