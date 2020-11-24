@@ -6,6 +6,21 @@ categories: thoughts
 tags: [thoughts]
 author: "Brandon"
 ---
+<div class = "polaroid-wall">
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/westrock.jpg' | relative_url }}">
+<img class = "polaroid" src="{{ 'assets/img/112120/campfire.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/sterling.jpg' | relative_url }}">
+<img class = "polaroid" src="{{ 'assets/img/112120/beach.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/murray_courtyard.jpg' | relative_url }}">
+<img class = "polaroid" src="{{ 'assets/img/112120/eastrock.jpg' | relative_url }}">
+</div>
+</div>
+
 This semester at Yale has been absolutely amazing and the best three months I could have ever asked for. Despite the given pandemic, I feel like I have taken every opportunity to explore, make friends, and take risks.
 
 **Here are some moments I loved**
@@ -17,6 +32,17 @@ This semester at Yale has been absolutely amazing and the best three months I co
 * Charging into the freezing ocean in our undies at 3 AM
 * A sleepless last night spent talking, dancing, watching It, giving hugs
 
+<div class = "polaroid-wall">
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/birdart.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/halloween.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/112120/sunrise.jpg' | relative_url }}">
+</div>
+</div>
 **What I learned**
 * Academia and research are probably not for me
 * Finding a balance between working hard and playing hard makes life so much easier
@@ -45,4 +71,4 @@ This semester at Yale has been absolutely amazing and the best three months I co
 * Playing ping pong
 * Spending time with Jonathan listening to him play piano
 * Painting pumpkins and "Trick or treating"
-* Playing spikeball for 3 hours straight in the Murray tournament 
+* Playing spikeball for 3 hours straight in the Murray tournament

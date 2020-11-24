@@ -8,3 +8,27 @@
 img {
   width: 100%;
 }
+
+.polaroid-wall {
+  margin-top: 10px;
+  width: 100%;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.polaroid-col {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  max-width: 30%;
+  padding: 0;
+  margin-left: 3%;
+}
+
+.polaroid {
+  width: 95%;
+  padding: 5%;
+  background-color: white;
+  box-shadow: 5px 10px 8px #888888;
+}

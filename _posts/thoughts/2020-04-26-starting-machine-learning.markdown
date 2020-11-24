@@ -33,7 +33,7 @@ scatter_matrix(dataset)
 pyplot.show()
 {% endhighlight %}
 Which will appear like the following:
-<img src="{{ 'assets/img/iris_visualize_data.png' | relative_url }}">
+<img src="{{ 'assets/img/042620/iris_visualize_data.png' | relative_url }}">
 Step 4: Split the Data Set into a training and test set.
 {% highlight ruby linenos%}
 x = array[:,0:4]
