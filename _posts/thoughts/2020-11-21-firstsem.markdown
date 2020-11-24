@@ -72,3 +72,7 @@ This semester at Yale has been absolutely amazing and the best three months I co
 * Spending time with Jonathan listening to him play piano
 * Painting pumpkins and "Trick or treating"
 * Playing spikeball for 3 hours straight in the Murray tournament
+
+<video controls>
+  <source src="{{ 'assets/img/112120/slowdance_yale.mp4' | relative_url }}" type = "video/mp4">
+</video>
