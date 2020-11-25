@@ -6,6 +6,19 @@ categories: thoughts
 tags: [pictures]
 author: "Brandon"
 ---
+
+<div class = "polaroid-wall">
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/090120/beach.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/090120/tahoe.jpg' | relative_url }}">
+</div>
+<div class = "polaroid-col">
+<img class = "polaroid" src="{{ 'assets/img/090120/stanford.jpg' | relative_url }}">
+</div>
+</div>
+
 If you're curious, I ended up not doing any of my brainstorms from earlier in the summer.
 
 I applied to work at Starbucks and Trader Joe's, but got rejected by both. I was offered a job as a CS tutor, but decided to turn down the offer.
