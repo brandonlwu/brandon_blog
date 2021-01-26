@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Some sketches and pictures from break!"
+date:   2021-01-15 08:44:42 -0700
+categories: thoughts
+tags: [pictures, art!]
+author: "Brandon"
+---
+
+I picked up drawing over break and experimented with some comics and some creative sketches. I also hiked a few trails around me: The Wilder Ridge, Baldwin, Ohlone Bluff and Old Cove Landing Trail.
+
+<img src="{{ 'assets/img/011521/space.jpg' | relative_url }}">
+
+<img class = "half" src="{{ 'assets/img/011521/bird1.jpg' | relative_url }}">
+<img class = "half" src="{{ 'assets/img/011521/bird2.jpg' | relative_url }}">
+
+<img class = "polaroid" src="{{ 'assets/img/011521/ohlonetrail.jpg' | relative_url }}">
+
+<img class = "half" src="{{ 'assets/img/011521/banana1.jpg' | relative_url }}">
+<img class = "half" src="{{ 'assets/img/011521/banana2.jpg' | relative_url }}">

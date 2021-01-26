@@ -9,6 +9,13 @@ img {
   width: 100%;
 }
 
+.half {
+  width: 49.5%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
 .polaroid-wall {
   margin-top: 10px;
   width: 100%;

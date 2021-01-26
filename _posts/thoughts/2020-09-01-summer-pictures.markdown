@@ -12,10 +12,10 @@ author: "Brandon"
 <img class = "polaroid" src="{{ 'assets/img/090120/beach.jpg' | relative_url }}">
 </div>
 <div class = "polaroid-col">
-<img class = "polaroid" src="{{ 'assets/img/090120/tahoe.jpg' | relative_url }}">
+<img class = "polaroid" src="{{ 'assets/img/090120/stanford.jpg' | relative_url }}">
 </div>
 <div class = "polaroid-col">
-<img class = "polaroid" src="{{ 'assets/img/090120/stanford.jpg' | relative_url }}">
+<img class = "polaroid" src="{{ 'assets/img/090120/tahoe.jpg' | relative_url }}">
 </div>
 </div>
 
@@ -29,7 +29,7 @@ I biked everyday this summer, usually around my neighborhood but sometimes exten
 
 Every week, I cooked a meal for my family with my brother. I can now make a mean carbonara (tip: add a spoonful of miso). We also made tacos, pizza, burgers and experimented with a korean taco fusion.
 
-I created a college app workshop with four friends. We later spent a day together hiking at Montalvo, picnicking at Googleplex, catching the sunset at the Pescadero beach, and chomping on s'mores while sharing storiess.
+I created a college app workshop with four friends. We later spent a day together hiking at Montalvo, picnicking at Shoreline, catching the sunset at the Pescadero beach, and chomping on s'mores while sharing ghost stories.
 
 I played a lot of Civilization VI (truthfully a bit too much), but I had lots of fun and don't regret it.
 
