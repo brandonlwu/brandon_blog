@@ -9,7 +9,7 @@ author: "Brandon"
 
 I picked up drawing over break and experimented with some comics and some creative sketches. I also hiked a few trails around me: The Wilder Ridge, Baldwin, Ohlone Bluff and Old Cove Landing Trail.
 
-<img src="{{ 'assets/img/011521/space.jpg' | relative_url }}">
+<img src="{{ 'assets/img/011521/space.png' | relative_url }}">
 
 <img class = "half" src="{{ 'assets/img/011521/bird1.jpg' | relative_url }}">
 <img class = "half" src="{{ 'assets/img/011521/bird2.jpg' | relative_url }}">
